@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form Assignment By Intershala</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="Main">
+        <article class="form-container">
+            <div class="heading"><h1>Student Regist</h1></div>
+            <div class="form">
+               <form id="form" onsubmit="collectData()">
+                <label for="sname">Student Name</label><br>
+                 <input type="text" name="sname" class="inp"><br>
+                 <label for="sid">Student ID</label><br>
+                 <input type="text" name="sid" class="inp"><br>
+                 <label for="Email">Email</label><br>
+                 <input type="email" name="Email" class="inp"><br>
+                 <label for="cno">Contact No</label><br>
+                 <input type="phone" name="cno" class="inp"><br>
+                 <button type="submit" class="submit-btn">Add-Details</button>
+               </form>
+
+            </div>
+
+        </article>
+
+        <article class="data-container">
+              <div class="heading"><h1>ration System</h1></div>
+            
+              <div class="head">
+                <table id="storelist">
+                  <thead >
+                    <tr>
+                      <th>Student Name</th>
+                    <th>Student Id</th>
+                    <th>Email</th>
+                    <th>Contact No</th>
+                    <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tbody">
+
+                  </tbody>
+
+                </table>
+              </div>
+            
+        </article>
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

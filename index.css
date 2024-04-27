@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: none;
+}
+.Main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    width: 100%;
+
+}
+.Main .form-container{
+     background-image: linear-gradient(to right, rgb(206, 206, 224),rgb(146, 146, 199),rgb(131, 131, 178), rgb(109, 109, 174));
+}
+.form-container .heading{
+    height: 10%;
+    width: auto;
+    float: right;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 10px 10px 25px black;
+    font-style: italic;
+}
+.form-container .form{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form form{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label{
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+form .inp{
+    margin-bottom: 30px;
+    width: 90%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+    background-color:rgb(123, 123, 210);
+    box-shadow: 0 0 5px 0.5px rgba(0,0,0,0.5);
+    color: white;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+form .submit-btn{
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(123, 123, 210);
+    box-shadow: 0 0 5px 0.5px rgba(0,0,0,0.5);
+    color: white;
+    
+}
+.Main .data-container{
+    background-image: linear-gradient(to right, rgb(237, 237, 86),rgb(211, 211, 100),rgb(184, 184, 122),rgb(172, 172, 129));
+}
+.data-container .heading{
+    height: 10%;
+    width: auto;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 10px 10px 25px black;
+    font-style: italic;
+}
+
+.data-container .head{
+    margin-top: 80px;
+    width: 95%;
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+     
+     
+}
+table{
+    height: auto;
+    width: 99%;
+    
+}
+table thead tr th  {
+    text-align: center;
+    border: 1px solid black; 
+}
+table tbody tr td{
+    text-align: center;
+    border: 1px solid black; 
+    padding: 2px;
+    color:blue;
+}
+table tbody tr td button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 1px;
+}
